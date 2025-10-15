@@ -18,15 +18,13 @@ import { motion, isValidMotionProp } from 'framer-motion';
 // Import images
 import ParthKapoor from '../../assets/ParthKapoor.png';
 import GurvirSandhu from '../../assets/GurvirSandhu.png';
-import UdeshwarSinghSandhu from '../../assets/UdeshwarSinghSandhu.png';
 import PrathamDave from '../../assets/PrathamDave.jpg';
 import VanshSuri from '../../assets/VanshSuri.png';
 import EdwardLin from '../../assets/EdwardLin.jpg';
 import NimayDesai from '../../assets/NimayDesai.png';
 import SharunArunanthy from '../../assets/SharunArunanthy.png';
 import VihaanShah from '../../assets/VihaanShah.png';
-import DhruvParikh from '../../assets/DhruvParikh.png';
-import IshaanDhillon from '../../assets/IshaanDhillon.png';
+import HaaziqDalvi from '../../assets/HaaziqDalvi.png';
 import KeyaShah from '../../assets/KeyaShah.png';
 import DhyeyHansoti from '../../assets/DhyeyHansoti.png';
 import MeharKapoor from '../../assets/MeharKapoor.png';
@@ -199,7 +197,7 @@ export function AboutCore() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={UdeshwarSinghSandhu}
+								src={NimayDesai}
 							/>
 						</MotionBox>
 					</Box>
@@ -228,7 +226,7 @@ export function AboutCore() {
 								textAlign='left'
 							>
 								<Box as='span' display='inline-block' position='relative'>
-									Vice President
+									Director of Events
 									<Box
 										as='span'
 										display='block'
@@ -240,24 +238,24 @@ export function AboutCore() {
 									/>
 								</Box>{' '}
 								<Box as='span' display={'flex'} pt={5}>
+									<Box pr={5}>
+										{GitHubContact('https://github.com/NimayDesai')}
+									</Box>
 									<Box>
-										{InstagramContact(
-											'https://www.instagram.com/udesh_awesome'
-										)}
+										{InstagramContact('https://www.instagram.com/paladinaoe2')}
 									</Box>
 								</Box>
 							</Box>
 						</MotionBox>
 					</Box>
 					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hi! My name is{' '}
+						Hello! My name is{' '}
 						<Box as='strong' fontWeight='600'>
-							Udeshwar Singh Sandhu{' '}
+							Nimay Desai
 						</Box>
-						and I am a VP of HB Cybertech. I have a strong passion for
-						programming and enjoy innovative technology. If you are want more
-						info about cyber security and cool technology, check out HB
-						CyberTech.
+						, and I am the event director of this club. I am a full stack
+						developer, but specialize in high-level langauges like JavaScript
+						and Python. I also adore history and grand strategy video games.
 					</Box>
 				</Flex>
 			</Flex>
@@ -343,7 +341,7 @@ export function AboutCore() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={ParthKapoor}
+								src={''}
 							/>
 						</MotionBox>
 					</Box>
@@ -382,22 +380,15 @@ export function AboutCore() {
 										bottom={-2}
 									/>
 								</Box>{' '}
-								<Box as='span' display={'flex'} pt={5}>
-									{InstagramContact('https://www.instagram.com/parth25k')}
-								</Box>
 							</Box>
 						</MotionBox>
 					</Box>
 					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
 						Welcome to the club! My name is{' '}
 						<Box as='strong' fontWeight='600'>
-							Parth Kapoor
+							Amish Rao
 						</Box>
-						. I am the social equity officer for this club with some skills in
-						Python. Feel free to talk to me about diversity and inclusion! I am
-						aspiring to reach great heights in business. Also, I am an avid
-						cricket fan and love to play it in my free time. If you're like me,
-						check out Cricket Club!
+						.
 					</Box>
 				</Flex>
 			</Flex>
@@ -429,7 +420,6 @@ export function AboutDev() {
 					</Heading>
 				</motion.div>
 			</SlideFade>
-
 			{/* Directors */}
 			<Flex direction={['column', 'column', 'row']}>
 				<div>
@@ -584,7 +574,6 @@ export function AboutDev() {
 					</Box>
 				</Flex>
 			</Flex>
-
 			{/* Development Team */}
 			<Flex direction={['column', 'column', 'row']}>
 				<div>
@@ -595,7 +584,7 @@ export function AboutDev() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={IshaanDhillon}
+								src={HaaziqDalvi}
 							/>
 						</MotionBox>
 					</Box>
@@ -635,24 +624,89 @@ export function AboutDev() {
 									/>
 								</Box>{' '}
 								<Box as='span' display={'flex'} pt={5}>
-									{InstagramContact(
-										'https://www.instagram.com/ishaandhillon12'
-									)}
+									{InstagramContact('https://www.instagram.com/haaziq_dalvi')}
 								</Box>
 							</Box>
 						</MotionBox>
 					</Box>
 					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hey! My name&apos;s{' '}
+						Hi, my name is{' '}
 						<Box as='strong' fontWeight='600'>
-							Ishaan Dhillon
+							Haaziq Dalvi
 						</Box>
-						. I am a grade 11 student with a passion for coding. I&apos;ve
-						gained experience in Python, Java, and C++, and I enjoy
-						collaborating on projects that challenge my problem-solving skills.
-						As an executive member, I aim to help foster a supportive
-						environment where everyone can develop their coding abilities and
-						explore new technologies.
+						I am an Executive member of the development team here at HB
+						CyberTech. I have a passion for coding and extensive knowledge of
+						how to explain math and science questions. I aim to support anyone
+						who needs assistance and will be happy to provide help to ensure
+						that the members of this club feel comfortable.
+					</Box>
+				</Flex>
+			</Flex>
+			<Flex direction={['column', 'column', 'row']}>
+				<div>
+					<Box m='auto' mb={[16, 16, 'auto']}>
+						<MotionBox whileHover={{ scale: 1.2 }} rounded='full' shadow='lg'>
+							<Avatar
+								size='2xl'
+								showBorder={true}
+								borderColor='blue.400'
+								loading='lazy'
+								src={''}
+							/>
+						</MotionBox>
+					</Box>
+				</div>
+				<Flex
+					position='relative'
+					ml={['auto', 'auto', 16]}
+					m={['auto', 'initial']}
+					w={['90%', '85%', '80%']}
+					maxW='800px'
+					justifyContent='center'
+					direction='column'
+				>
+					<Box position='relative'>
+						<MotionBox whileHover={{ translateY: -5 }} width='fit-content'>
+							<Box
+								as='h1'
+								mb={6}
+								fontSize='3xl'
+								lineHeight='shorter'
+								fontWeight='bold'
+								mt={0}
+								cursor='pointer'
+								width='fit-content'
+								textAlign='left'
+							>
+								<Box as='span' display='inline-block' position='relative'>
+									Executive of Development
+									<Box
+										as='span'
+										display='block'
+										position='absolute'
+										bg='blue.400'
+										w='100%'
+										h='1px'
+										bottom={-2}
+									/>
+								</Box>{' '}
+								<Box as='span' display={'flex'} pt={5}>
+									{InstagramContact('https://www.instagram.com/manavjeet08')}
+								</Box>
+							</Box>
+						</MotionBox>
+					</Box>
+					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
+						Greetings! My name is{' '}
+						<Box as='strong' fontWeight='600'>
+							Manavjeet Singh{' '}
+						</Box>
+						and I am a core member of the development team. I am effiecent
+						mainly in Python but I can code in C++ and other languages. I always
+						believed with code you can always make your life easier whether it
+						is related to hardware or software. I wish to share my knowledge
+						with our members so that people can use their gifts for the greator
+						good.
 					</Box>
 				</Flex>
 			</Flex>
@@ -714,69 +768,6 @@ export function AboutDev() {
 						Hello! My name is{' '}
 						<Box as='strong' fontWeight='600'>
 							Marlon Dawkins
-						</Box>
-						!
-					</Box>
-				</Flex>
-			</Flex>
-			<Flex direction={['column', 'column', 'row']}>
-				<div>
-					<Box m='auto' mb={[16, 16, 'auto']}>
-						<MotionBox whileHover={{ scale: 1.2 }} rounded='full' shadow='lg'>
-							<Avatar
-								size='2xl'
-								showBorder={true}
-								borderColor='blue.400'
-								loading='lazy'
-								src={''}
-							/>
-						</MotionBox>
-					</Box>
-				</div>
-				<Flex
-					position='relative'
-					ml={['auto', 'auto', 16]}
-					m={['auto', 'initial']}
-					w={['90%', '85%', '80%']}
-					maxW='800px'
-					justifyContent='center'
-					direction='column'
-				>
-					<Box position='relative'>
-						<MotionBox whileHover={{ translateY: -5 }} width='fit-content'>
-							<Box
-								as='h1'
-								mb={6}
-								fontSize='3xl'
-								lineHeight='shorter'
-								fontWeight='bold'
-								mt={0}
-								cursor='pointer'
-								width='fit-content'
-								textAlign='left'
-							>
-								<Box as='span' display='inline-block' position='relative'>
-									Executive of Development
-									<Box
-										as='span'
-										display='block'
-										position='absolute'
-										bg='blue.400'
-										w='100%'
-										h='1px'
-										bottom={-2}
-									/>
-								</Box>{' '}
-								<Box as='span' display={'flex'} pt={5}>
-									{InstagramContact('https://www.instagram.com/haaziq_dalvi')}
-								</Box>
-							</Box>
-						</MotionBox>
-					</Box>
-					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hi, my name is{' '}
-						<Box as='strong' fontWeight='600'>
-							Haaziq Dalvi
 						</Box>
 						!
 					</Box>
@@ -1255,12 +1246,11 @@ export function AboutEvents() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={NimayDesai}
+								src={GurvirSandhu}
 							/>
 						</MotionBox>
 					</Box>
 				</div>
-
 				<Flex
 					position='relative'
 					ml={['auto', 'auto', 16]}
@@ -1296,79 +1286,6 @@ export function AboutEvents() {
 									/>
 								</Box>{' '}
 								<Box as='span' display={'flex'} pt={5}>
-									<Box pr={5}>
-										{GitHubContact('https://github.com/NimayDesai')}
-									</Box>
-									<Box>
-										{InstagramContact('https://www.instagram.com/paladinaoe2')}
-									</Box>
-								</Box>
-							</Box>
-						</MotionBox>
-					</Box>
-					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hello! My name is{' '}
-						<Box as='strong' fontWeight='600'>
-							Nimay Desai
-						</Box>
-						, and I am the event director of this club. I am a full stack
-						developer, but specialize in high-level langauges like JavaScript
-						and Python. I also adore history and grand strategy video games. If
-						you do too, check our History Club!
-					</Box>
-				</Flex>
-			</Flex>
-
-			{/* Events Team */}
-			<Flex direction={['column', 'column', 'row']}>
-				<div>
-					<Box m='auto' mb={[16, 16, 'auto']}>
-						<MotionBox whileHover={{ scale: 1.2 }} rounded='full' shadow='lg'>
-							<Avatar
-								size='2xl'
-								showBorder={true}
-								borderColor='blue.400'
-								loading='lazy'
-								src={GurvirSandhu}
-							/>
-						</MotionBox>
-					</Box>
-				</div>
-				<Flex
-					position='relative'
-					ml={['auto', 'auto', 16]}
-					m={['auto', 'initial']}
-					w={['90%', '85%', '80%']}
-					maxW='800px'
-					justifyContent='center'
-					direction='column'
-				>
-					<Box position='relative'>
-						<MotionBox whileHover={{ translateY: -5 }} width='fit-content'>
-							<Box
-								as='h1'
-								mb={6}
-								fontSize='3xl'
-								lineHeight='shorter'
-								fontWeight='bold'
-								mt={0}
-								cursor='pointer'
-								width='fit-content'
-								textAlign='left'
-							>
-								<Box as='span' display='inline-block' position='relative'>
-									Events Coordinator
-									<Box
-										as='span'
-										display='block'
-										position='absolute'
-										bg='blue.400'
-										w='100%'
-										h='1px'
-										bottom={-2}
-									/>
-								</Box>{' '}
-								<Box as='span' display={'flex'} pt={5}>
 									{InstagramContact('https://www.instagram.com/gru_clues/')}
 								</Box>
 							</Box>
@@ -1379,13 +1296,16 @@ export function AboutEvents() {
 						<Box as='strong' fontWeight='600'>
 							Gurvir Sandhu{' '}
 						</Box>
-						and I will be the Event Coordinator of this club. I love to play
+						and I will be the Director of Events for this club. I love to play
 						racket sports and building circuits on different cad platforms. I am
 						also a part of a table tennis club that I started and managed. Feel
 						free to check it out!
 					</Box>
 				</Flex>
 			</Flex>
+
+			{/* Events Team */}
+
 			<Flex direction={['column', 'column', 'row']}>
 				<div>
 					<Box m='auto' mb={[16, 16, 'auto']}>
@@ -1467,7 +1387,7 @@ export function AboutEvents() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={DhruvParikh}
+								src={ParthKapoor}
 							/>
 						</MotionBox>
 					</Box>
@@ -1507,19 +1427,20 @@ export function AboutEvents() {
 									/>
 								</Box>{' '}
 								<Box as='span' display={'flex'} pt={5}>
-									{InstagramContact('https://www.instagram.com/dhruvpar1707')}
+									{InstagramContact('https://www.instagram.com/parth25k')}
 								</Box>
 							</Box>
 						</MotionBox>
 					</Box>
 					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hi, my name is{' '}
+						Welcome to the club! My name is{' '}
 						<Box as='strong' fontWeight='600'>
-							Dhruv Parikh{' '}
+							Parth Kapoor
 						</Box>
-						and I help arrange events in HB CyberTech club. I am very passionate
-						about coding and have been learning Python and Java for over 3
-						years. I'm also very passionate about Physics and Accounting.
+						. I am an events executive for this club with some skills in Python.
+						Feel free to talk to me about diversity and inclusion! I am aspiring
+						to reach great heights in business. Also, I am an avid cricket fan
+						and love to play it in my free time.
 					</Box>
 				</Flex>
 			</Flex>

@@ -33,12 +33,15 @@ export default function Home() {
 							lineHeight={'110%'}
 							textAlign='center'
 						>
-							<Text textShadow='1px 1px #9c1786'>Welcome to </Text>
+							<Text textShadow='0 0 10px rgba(156, 23, 134, 0.5)'>
+								Welcome to{' '}
+							</Text>
 							<Text
 								as={'span'}
 								color={'blue.400'}
 								bgGradient='linear(to-r, blue.200, purple.500)'
 								bgClip='text'
+								textShadow='0 0 15px rgba(100, 108, 255, 0.4)'
 							>
 								HB CyberTech
 							</Text>
@@ -66,7 +69,11 @@ export default function Home() {
 									<Icon as={feature.icon} w={10} h={10} color='blue.400' />
 								</motion.div>
 							</SlideFade>
-							<chakra.h3 fontWeight='semibold' fontSize='2xl'>
+							<chakra.h3
+								fontWeight='semibold'
+								fontSize='2xl'
+								textShadow='0 0 8px rgba(100, 108, 255, 0.3)'
+							>
 								{feature.heading}
 							</chakra.h3>
 							<Text fontSize='md'>{feature.content}</Text>
