@@ -1370,8 +1370,8 @@ export function AboutEvents() {
 						<Box as='strong' fontWeight='600'>
 							Vihaan Shah
 						</Box>
-						, and I'm the Executive of Marketing of CyberTech. I specialize
-						mainly in Python coding, but also have an affinity for robotics and
+						, and I'm an Executive of Events for CyberTech. I specialize mainly
+						in Python coding, but also have an affinity for robotics and
 						engineering. Outside of computers, I enjoy sports and writing. If
 						you want to learn more about coding and security, make sure to check
 						out HB CyberTech!
