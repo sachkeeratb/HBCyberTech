@@ -28,6 +28,7 @@ import HaaziqDalvi from '../../assets/HaaziqDalvi.png';
 import KeyaShah from '../../assets/KeyaShah.png';
 import DhyeyHansoti from '../../assets/DhyeyHansoti.png';
 import MeharKapoor from '../../assets/MeharKapoor.png';
+import ManavjeetSingh from '../../assets/ManavjeetSingh.png';
 
 // Import icons
 import {
@@ -568,7 +569,7 @@ export function AboutDev() {
 						<Box as='strong' fontWeight='600'>
 							Mehar Kapoor
 						</Box>
-						. I am a grade 11 student with a passion for coding, with most of my
+						. I am an IB student with a passion for coding, with most of my
 						experience in iOS development and low-level assembly. I&apos;m also
 						a dedicated astrophotographer.
 					</Box>
@@ -622,7 +623,7 @@ export function AboutDev() {
 										h='1px'
 										bottom={-2}
 									/>
-								</Box>{' '}
+								</Box>
 								<Box as='span' display={'flex'} pt={5}>
 									{InstagramContact('https://www.instagram.com/haaziq_dalvi')}
 								</Box>
@@ -634,7 +635,7 @@ export function AboutDev() {
 						<Box as='strong' fontWeight='600'>
 							Haaziq Dalvi
 						</Box>
-						I am an Executive member of the development team here at HB
+						. I am an Executive member of the development team here at HB
 						CyberTech. I have a passion for coding and extensive knowledge of
 						how to explain math and science questions. I aim to support anyone
 						who needs assistance and will be happy to provide help to ensure
@@ -651,7 +652,7 @@ export function AboutDev() {
 								showBorder={true}
 								borderColor='blue.400'
 								loading='lazy'
-								src={''}
+								src={ManavjeetSingh}
 							/>
 						</MotionBox>
 					</Box>
@@ -768,6 +769,69 @@ export function AboutDev() {
 						Hello! My name is{' '}
 						<Box as='strong' fontWeight='600'>
 							Marlon Dawkins
+						</Box>
+						!
+					</Box>
+				</Flex>
+			</Flex>
+			<Flex direction={['column', 'column', 'row']}>
+				<div>
+					<Box m='auto' mb={[16, 16, 'auto']}>
+						<MotionBox whileHover={{ scale: 1.2 }} rounded='full' shadow='lg'>
+							<Avatar
+								size='2xl'
+								showBorder={true}
+								borderColor='blue.400'
+								loading='lazy'
+								src={''}
+							/>
+						</MotionBox>
+					</Box>
+				</div>
+				<Flex
+					position='relative'
+					ml={['auto', 'auto', 16]}
+					m={['auto', 'initial']}
+					w={['90%', '85%', '80%']}
+					maxW='800px'
+					justifyContent='center'
+					direction='column'
+				>
+					<Box position='relative'>
+						<MotionBox whileHover={{ translateY: -5 }} width='fit-content'>
+							<Box
+								as='h1'
+								mb={6}
+								fontSize='3xl'
+								lineHeight='shorter'
+								fontWeight='bold'
+								mt={0}
+								cursor='pointer'
+								width='fit-content'
+								textAlign='left'
+							>
+								<Box as='span' display='inline-block' position='relative'>
+									Executive of Development
+									<Box
+										as='span'
+										display='block'
+										position='absolute'
+										bg='blue.400'
+										w='100%'
+										h='1px'
+										bottom={-2}
+									/>
+								</Box>{' '}
+								<Box as='span' display={'flex'} pt={5}>
+									{InstagramContact('https://www.instagram.com/himothy_aa')}
+								</Box>
+							</Box>
+						</MotionBox>
+					</Box>
+					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
+						Hello! My name is{' '}
+						<Box as='strong' fontWeight='600'>
+							Arnav Ahuja
 						</Box>
 						!
 					</Box>
@@ -1554,19 +1618,19 @@ export function AboutEvents() {
 										h='1px'
 										bottom={-2}
 									/>
-								</Box>{' '}
+								</Box>
 								<Box as='span' display={'flex'} pt={5}>
-									{InstagramContact('https://www.instagram.com/himothy_aa')}
+									{InstagramContact('https://www.instagram.com/mankrit_kapur')}
 								</Box>
 							</Box>
 						</MotionBox>
 					</Box>
 					<Box as='h2' fontSize='xl' fontWeight='400' textAlign='left' pb={10}>
-						Hello! My name is{' '}
+						Hello, I am{' '}
 						<Box as='strong' fontWeight='600'>
-							Arnav Ahuja
+							Mankrit Kapur
 						</Box>
-						!
+						.
 					</Box>
 				</Flex>
 			</Flex>
