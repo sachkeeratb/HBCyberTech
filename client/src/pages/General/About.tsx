@@ -227,7 +227,7 @@ export function AboutCore() {
 								textAlign='left'
 							>
 								<Box as='span' display='inline-block' position='relative'>
-									Director of Events
+									Vice President
 									<Box
 										as='span'
 										display='block'
@@ -254,9 +254,9 @@ export function AboutCore() {
 						<Box as='strong' fontWeight='600'>
 							Nimay Desai
 						</Box>
-						, and I am the event director of this club. I am a full stack
-						developer, but specialize in high-level langauges like JavaScript
-						and Python. I also adore history and grand strategy video games.
+						, and I am a VP of this club. I am a full stack developer, but
+						specialize in high-level langauges like JavaScript and Python. I
+						also adore history and grand strategy video games.
 					</Box>
 				</Flex>
 			</Flex>
@@ -325,7 +325,7 @@ export function AboutCore() {
 						<Box as='strong' fontWeight='600'>
 							Edward Lin{' '}
 						</Box>
-						and I am the VP of this club. I enjoy programming competitively and
+						and I am a VP of this club. I enjoy programming competitively and
 						building projects in Python. If you are reading this you are now
 						obliged to check CodeLink!
 					</Box>
