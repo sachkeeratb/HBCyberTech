@@ -29,7 +29,7 @@ import GenMemList from './pages/Admin/GenMemList';
 import ExecMemList from './pages/Admin/ExecMemList';
 import AccountList from './pages/Admin/AccountList';
 const GeneralForm = lazy(() => import('./pages/Misc/GeneralForm'));
-// const ExecForm = lazy(() => import('./pages/Misc/ExecForm'));
+const ExecForm = lazy(() => import('./pages/Misc/ExecForm'));
 
 import theme from './theme.ts';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
@@ -250,7 +250,15 @@ function App() {
 							</TransitionLink>
 						}
 					/>
-					{/* <Route path='/form/executive' element={ TransitionLink> <ExecForm /> </TransitionLink> } /> */}
+					<Route
+						path='/form/executive'
+						element={
+							<TransitionLink>
+								{' '}
+								<ExecForm />{' '}
+							</TransitionLink>
+						}
+					/>
 				</Routes>
 			</Router>
 		</ChakraProvider>
